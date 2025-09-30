@@ -1,6 +1,6 @@
 package livraria.model;
 
-public class Livro extends Item{
+public class Livro extends Produto{
 
 	private String titulo;
 

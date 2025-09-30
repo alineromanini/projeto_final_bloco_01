@@ -1,26 +1,26 @@
 package livraria.model;
 
-public class Papelaria extends Item {
+public class Papelaria extends Produto {
 
-	private String produto;
+	private String quantidade;
 
-	public Papelaria(int id, String item, int categoria, float preco, String produto) {
+	public Papelaria(int id, String item, int categoria, float preco, String quantidade) {
 		super(id, item, categoria, preco);
-		this.produto = produto;
+		this.quantidade = quantidade;
 	}
 
-	public String getProduto() {
-		return produto;
+	public String getquantidade() {
+		return quantidade;
 	}
 
-	public void setProduto(String produto) {
-		this.produto = produto;
+	public void setquantidade(String quantidade) {
+		this.quantidade = quantidade;
 	}
 	
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.printf("Produto da papelaria: %s\n", this.produto);
+		System.out.printf("quantidade da papelaria: %s\n", this.quantidade);
 	}
 
 

@@ -1,13 +1,13 @@
 package livraria.model;
 
-public abstract class Item {
+public abstract class Produto {
 
 	private int id;
 	private String item;
 	private int categoria;
 	private float preco;
 
-	public Item(int id, String item, int categoria, float preco) {
+	public Produto(int id, String item, int categoria, float preco) {
 		this.id = id;
 		this.item = item;
 		this.categoria = categoria;
