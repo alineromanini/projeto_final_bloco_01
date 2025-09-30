@@ -33,10 +33,10 @@ public class Menu {
 			System.out.println("                                                        ");
 			System.out.println("********************************************************");
 			System.out.println("                                                        ");
-			System.out.println("                1 - Cadastrar livros                    ");
-			System.out.println("                2 - Listar todos os livros              ");
-			System.out.println("                3 - Buscar livros por ID                ");
-			System.out.println("                4 - Atualizar livros                    ");
+			System.out.println("                1 - Cadastrar itens                     ");
+			System.out.println("                2 - Listar todos os itens               ");
+			System.out.println("                3 - Buscar itens por ID                 ");
+			System.out.println("                4 - Atualizar itens                     ");
 			System.out.println("                5 - Apagar livros                       ");
 			System.out.println("                0 - Sair                                ");
 			System.out.println("                                                        ");
@@ -63,28 +63,28 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println(Cores.TEXT_WHITE_BOLD + "Cadastrar livros\n");
+				System.out.println(Cores.TEXT_WHITE_BOLD + "Cadastrar itens\n");
 				cadastrar();
 				keypress();
 				break;
 			case 2:
-				System.out.println(Cores.TEXT_WHITE_BOLD + "Listar todos os livros\n" + Cores.TEXT_RESET);
+				System.out.println(Cores.TEXT_WHITE_BOLD + "Listar todos os itens\n" + Cores.TEXT_RESET);
 				listarProdutos();
 				keypress();
 				break;
 			case 3:
-				System.out.println(Cores.TEXT_WHITE_BOLD + "Consultar livros por ID\n");
+				System.out.println(Cores.TEXT_WHITE_BOLD + "Consultar itens por ID\n");
 				consultarPorId();
 
 				keypress();
 				break;
 			case 4:
-				System.out.println(Cores.TEXT_WHITE_BOLD + "Atualizar livros\n");
+				System.out.println(Cores.TEXT_WHITE_BOLD + "Atualizar itens\n");
 				atualizar();
 				keypress();
 				break;
 			case 5:
-				System.out.println(Cores.TEXT_WHITE_BOLD + "Apagar livros");
+				System.out.println(Cores.TEXT_WHITE_BOLD + "Apagar itens");
 				deletar();
 				keypress();
 				break;
@@ -205,7 +205,7 @@ public class Menu {
 
 			// Atualiza o nome do nome (ou mantém valor atual se apertar Enter)
 			System.out.printf(
-					"Nome atual: %s\nDigite o novo nome do Nome (Pressione ENTER para manter o valor atual): ", item);
+					"Nome atual: %s\nDigite o novo nome do item (Pressione ENTER para manter o valor atual): ", item);
 			String entrada = leia.nextLine();
 			item = entrada.isEmpty() ? item : entrada;
 
