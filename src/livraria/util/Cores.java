@@ -1,4 +1,4 @@
-package projeto_final_bloco_01.util;
+package livraria.util;
 
 public class Cores {
 	//Reset Color

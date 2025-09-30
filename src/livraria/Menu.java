@@ -1,9 +1,9 @@
-package projeto_final_bloco_01;
+package livraria;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import projeto_final_bloco_01.util.Cores;
+import livraria.util.Cores;
 
 public class Menu {
 
