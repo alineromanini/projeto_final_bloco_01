@@ -12,7 +12,7 @@ public class ProdutoController implements ProdutoRepository {
 	int id = 0;
 
 	@Override
-	public void listarTodos() {
+	public void listarProdutos() {
 		for (var produto : listaProdutos) {
 
 			produto.visualizar();
@@ -64,7 +64,7 @@ public class ProdutoController implements ProdutoRepository {
 		}
 
 	}
-	//Métodos Auxiliares
+	// Métodos Auxiliares
 
 	public int gerarId() {
 		return ++id;

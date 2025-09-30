@@ -4,19 +4,30 @@ public class Livro extends Produto{
 
 	private String titulo;
 
-	public Livro(int id, int categoria, float preco, String titulo) {
-		super(id, titulo, categoria, preco);
+
+	
+	public Livro(int id, String item, int categoria, float preco, String titulo) {
+		super(id, item, categoria, preco);
 		this.titulo = titulo;
 	}
 
-	public String gettitulo() {
+	
+
+
+	public String getTitulo() {
 		return titulo;
 	}
 
-	public void settitulo(String titulo) {
+
+
+
+	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	
+
+
+
+
 	@Override
 	public void visualizar() {
 		super.visualizar();

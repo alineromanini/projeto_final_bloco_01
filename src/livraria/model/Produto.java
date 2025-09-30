@@ -7,6 +7,8 @@ public abstract class Produto {
 	private int categoria;
 	private float preco;
 
+
+	
 	public Produto(int id, String item, int categoria, float preco) {
 		this.id = id;
 		this.item = item;
@@ -14,37 +16,64 @@ public abstract class Produto {
 		this.preco = preco;
 	}
 
+	
+
+
 	public int getId() {
 		return id;
 	}
+
+
+
 
 	public void setId(int id) {
 		this.id = id;
 	}
 
-	public String getitem() {
+
+
+
+	public String getItem() {
 		return item;
 	}
 
-	public void setitem(String item) {
+
+
+
+	public void setItem(String item) {
 		this.item = item;
 	}
+
+
+
 
 	public int getCategoria() {
 		return categoria;
 	}
 
+
+
+
 	public void setCategoria(int categoria) {
 		this.categoria = categoria;
 	}
+
+
+
 
 	public float getPreco() {
 		return preco;
 	}
 
+
+
+
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
+
+
+
 
 	public void visualizar() {
 
