@@ -37,7 +37,7 @@ public class Menu {
 			System.out.println("                2 - Listar todos os itens               ");
 			System.out.println("                3 - Buscar itens por ID                 ");
 			System.out.println("                4 - Atualizar itens                     ");
-			System.out.println("                5 - Apagar livros                       ");
+			System.out.println("                5 - Apagar itens                        ");
 			System.out.println("                0 - Sair                                ");
 			System.out.println("                                                        ");
 			System.out.println("********************************************************");
